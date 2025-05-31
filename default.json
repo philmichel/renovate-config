@@ -4,17 +4,17 @@
 		"config:recommended",
 		"docker:enableMajor",
 		"helpers:pinGitHubActionDigests",
-		"github>tholinka/renovate-config:automerge.json5",
-		"github>tholinka/renovate-config:commit-message.json5",
-		"github>tholinka/renovate-config:custom-managers.json5",
-		"github>tholinka/renovate-config:labels.json5",
+		"github>philmichel/renovate-config:automerge.json5",
+		"github>philmichel/renovate-config:commit-message.json5",
+		"github>philmichel/renovate-config:custom-managers.json5",
+		"github>philmichel/renovate-config:labels.json5",
 		"mergeConfidence:all-badges",
 		":enablePreCommit",
 		":automergeBranch",
 		":disableRateLimiting",
 		":dependencyDashboard",
 		":semanticCommits",
-		":timezone(America/Chicago)"
+		":timezone(America/Los_Angeles)"
 	],
 	"dependencyDashboardTitle": "Renovate Dashboard 🤖",
 	"suppressNotifications": [
