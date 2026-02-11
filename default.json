@@ -1,25 +1,25 @@
 {
-	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": [
-		"config:recommended",
-		"abandonments:recommended",
-		"docker:enableMajor",
-		"helpers:pinGitHubActionDigests",
-		"github>philmichel/renovate-config:automerge.json5",
-		"github>philmichel/renovate-config:commit-message.json5",
-		"github>philmichel/renovate-config:custom-managers.json5",
-		"github>philmichel/renovate-config:labels.json5",
-		"mergeConfidence:all-badges",
-		":enablePreCommit",
-		":automergeBranch",
-		":disableRateLimiting",
-		":dependencyDashboard",
-		":semanticCommits",
-		":timezone(America/Los_Angeles)"
-	],
-	"dependencyDashboardTitle": "Renovate Dashboard 🤖",
-	"suppressNotifications": [
-		"prEditedNotification",
-		"prIgnoreNotification"
-	]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    "abandonments:recommended",
+    "docker:enableMajor",
+    "helpers:pinGitHubActionDigests",
+    "github>philmichel/renovate-config:automerge.json5",
+    "github>philmichel/renovate-config:commit-message.json5",
+    "github>philmichel/renovate-config:custom-managers.json5",
+    "github>philmichel/renovate-config:labels.json5",
+    "mergeConfidence:all-badges",
+    ":enablePreCommit",
+    ":automergeBranch",
+    ":disableRateLimiting",
+    ":dependencyDashboard",
+    ":semanticCommits",
+    ":timezone(America/Los_Angeles)"
+  ],
+  "dependencyDashboardTitle": "Renovate Dashboard 🤖",
+  "suppressNotifications": [
+    "prEditedNotification",
+    "prIgnoreNotification"
+  ]
 }

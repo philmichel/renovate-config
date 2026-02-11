@@ -1,6 +1,6 @@
 {
-	"recommendations": [
-		"EditorConfig.editorconfig",
-		"blueglassblock.better-json5",
-	]
+  "recommendations": [
+    "EditorConfig.editorconfig",
+    "blueglassblock.better-json5",
+  ]
 }
