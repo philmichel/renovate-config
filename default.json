@@ -17,6 +17,7 @@
     ":semanticCommits",
     ":timezone(America/Los_Angeles)"
   ],
+  "reviewers": ["philmichel"],
   "suppressNotifications": [
     "prEditedNotification",
     "prIgnoreNotification"
